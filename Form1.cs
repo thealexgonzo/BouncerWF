@@ -15,6 +15,7 @@ namespace BouncerWF
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+            ball.Update();
             ball.Display(e.Graphics);
         }
     }
